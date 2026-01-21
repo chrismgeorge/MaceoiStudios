@@ -432,7 +432,14 @@ main {
 }
 
 .apply-section p {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.email-text {
+    font-weight: 600;
+    color: var(--color-primary-dark);
+    font-size: 1rem;
+    user-select: all;
 }
 
 footer {
@@ -466,6 +473,12 @@ footer {
 
 .footer-email:hover {
     color: var(--color-white);
+}
+
+.footer-email-text {
+    color: var(--color-primary);
+    font-size: 0.9rem;
+    user-select: all;
 }
 
 @media (max-width: 600px) {
